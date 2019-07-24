@@ -1,0 +1,282 @@
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1 infile.txt 
+./producer 10 | ./consumer 10 
+character-count: 10
+read-call-count: 10
+
+
+real	0m0,181s
+user	0m0,002s
+sys	0m0,000s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10 infile.txt 
+./producer 10 | ./consumer 10 
+character-count: 10
+read-call-count: 1
+
+
+real	0m0,199s
+user	0m0,002s
+sys	0m0,002s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1 infile.txt 
+./producer 100 | ./consumer 100 
+character-count: 100
+read-call-count: 100
+
+
+real	0m0,179s
+user	0m0,002s
+sys	0m0,000s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10 infile.txt 
+./producer 100 | ./consumer 100 
+character-count: 100
+read-call-count: 10
+
+
+real	0m0,200s
+user	0m0,007s
+sys	0m0,001s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 100 infile.txt 
+./producer 100 | ./consumer 100 
+character-count: 100
+read-call-count: 1
+
+
+real	0m0,178s
+user	0m0,001s
+sys	0m0,001s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1 infile.txt 
+./producer 1000 | ./consumer 1000 
+character-count: 1000
+read-call-count: 1000
+
+
+real	0m0,194s
+user	0m0,009s
+sys	0m0,000s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10 infile.txt 
+./producer 1000 | ./consumer 1000 
+character-count: 1000
+read-call-count: 100
+
+
+real	0m0,201s
+user	0m0,002s
+sys	0m0,006s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 100 infile.txt 
+./producer 1000 | ./consumer 1000 
+character-count: 1000
+read-call-count: 10
+
+
+real	0m0,194s
+user	0m0,005s
+sys	0m0,004s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1000 infile.txt 
+./producer 1000 | ./consumer 1000 
+character-count: 1000
+read-call-count: 1
+
+
+real	0m0,177s
+user	0m0,003s
+sys	0m0,001s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1 infile.txt 
+./producer 10000 | ./consumer 10000 
+character-count: 10000
+read-call-count: 10000
+
+
+real	0m0,191s
+user	0m0,005s
+sys	0m0,012s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10 infile.txt 
+./producer 10000 | ./consumer 10000 
+character-count: 10000
+read-call-count: 1000
+
+
+real	0m0,195s
+user	0m0,001s
+sys	0m0,012s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 100 infile.txt 
+./producer 10000 | ./consumer 10000 
+character-count: 10000
+read-call-count: 100
+
+
+real	0m0,211s
+user	0m0,002s
+sys	0m0,005s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1000 infile.txt 
+./producer 10000 | ./consumer 10000 
+character-count: 10000
+read-call-count: 10
+
+
+real	0m0,182s
+user	0m0,007s
+sys	0m0,000s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10000 infile.txt 
+./producer 10000 | ./consumer 10000 
+character-count: 10000
+read-call-count: 1
+
+
+real	0m0,194s
+user	0m0,003s
+sys	0m0,005s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1 infile.txt 
+./producer 100000 | ./consumer 100000 
+character-count: 100000
+read-call-count: 100000
+
+
+real	0m0,411s
+user	0m0,045s
+sys	0m0,277s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10 infile.txt 
+./producer 100000 | ./consumer 100000 
+character-count: 100010
+read-call-count: 10001
+
+
+real	0m0,145s
+user	0m0,018s
+sys	0m0,042s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 100 infile.txt 
+./producer 100000 | ./consumer 100000 
+character-count: 100100
+read-call-count: 1001
+
+
+real	0m0,144s
+user	0m0,036s
+sys	0m0,022s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1000 infile.txt 
+./producer 100000 | ./consumer 100000 
+character-count: 114000
+read-call-count: 114
+
+
+real	0m0,121s
+user	0m0,008s
+sys	0m0,045s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10000 infile.txt 
+./producer 100000 | ./consumer 100000 
+character-count: 150000
+read-call-count: 15
+
+
+real	0m0,114s
+user	0m0,017s
+sys	0m0,037s
+
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 100000 infile.txt 
+./producer 100000 | ./consumer 100000 
+
+real	0m0,104s
+user	0m0,001s
+sys	0m0,001s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1 infile.txt 
+./producer 1000000 | ./consumer 1000000 
+character-count: 1000000
+read-call-count: 1000000
+
+
+real	0m3,086s
+user	0m0,360s
+sys	0m2,458s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10 infile.txt 
+./producer 1000000 | ./consumer 1000000 
+character-count: 1000010
+read-call-count: 100001
+
+
+real	0m0,697s
+user	0m0,159s
+sys	0m0,376s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 100 infile.txt 
+./producer 1000000 | ./consumer 1000000 
+character-count: 1000100
+read-call-count: 10001
+
+
+real	0m0,576s
+user	0m0,143s
+sys	0m0,302s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1000 infile.txt 
+./producer 1000000 | ./consumer 1000000 
+character-count: 1012000
+read-call-count: 1012
+
+
+real	0m0,604s
+user	0m0,130s
+sys	0m0,322s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 10000 infile.txt 
+./producer 1000000 | ./consumer 1000000 
+character-count: 1050000
+read-call-count: 105
+
+
+real	0m0,550s
+user	0m0,131s
+sys	0m0,306s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 100000 infile.txt 
+./producer 1000000 | ./consumer 1000000 
+
+real	0m0,492s
+user	0m0,000s
+sys	0m0,002s
+
+burak@burak-ubuntu:~/Desktop/Project 1$ time ./bilshell 1000000 infile.txt 
+./producer 1000000 | ./consumer 1000000 
+
+real	0m0,524s
+user	0m0,003s
+sys	0m0,000s
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 ## Project Explanation
 
--- type "make" to compile the library and programs
+Type "make" to compile the library and programs
 
 	make
  

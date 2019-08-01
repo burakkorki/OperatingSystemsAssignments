@@ -36,4 +36,4 @@ All the four projects are listed here.
 
 © Burak Korkmaz, Bilkent University Computer Science
 
-Licenced under the [MIT Licence](LICENCE).
+Licenced under the [MIT Licence](LICENSE).
